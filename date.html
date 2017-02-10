@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$t = date("H")+2;
+echo "<p>";
+if ($t < "12") {
+    echo "Ha en bra förmiddag!";
+}elseif($t < "17"){
+    echo "Ha en bra eftermiddag";
+}elseif ($t < "12"){
+    echo "Ha en bra kväll";
+}else{
+    echo "Godnatt!";
+}
+echo "</p>";
+?>
+ 
+</body>
+</html>
